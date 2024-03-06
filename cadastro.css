@@ -1,0 +1,99 @@
+.form-cadastro input::placeholder {
+    color: #2c6300;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:#000000;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(86, 252, 71);
+    background: linear-gradient(144deg, rgb(5, 19, 0) 0%, rgb(0, 138, 11) 78%, rgb(144, 245, 135) 100%);
+}
+
+.main{
+    width: 45vw;
+    height: 85vh;
+    border-radius: 99px;
+    background-color: rgb(86, 252, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cadastro{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cadastro h2{
+    font-size: 24px;
+}
+
+.form-cadastro p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.form-cadastro label{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.form-cadastro input{
+    height: 35px;
+    width: 380px;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(59, 104, 0);
+    background-color: rgb(204, 255, 159);
+}
+
+.form-cadastro button{
+    width: 60%;
+    height: 60px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(51, 160, 0);
+    cursor: pointer;
+}
+
+.form-cadastro button:hover{
+    background-color: rgb(83, 156, 0);
+    
+}
+
+.form-cadastro span{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.a1{
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;   
+}
+
+h2{
+    color: rgb(2, 75, 0);
+}
+.account-text {
+    font-size: 15px; 
+}
