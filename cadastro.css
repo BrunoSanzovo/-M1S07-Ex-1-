@@ -19,3 +19,83 @@ body {
     background-color: #3498DB; /* Cor para o Content */
     flex: 3;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinhamento vertical */
+}
+
+.form-cadastro {
+    width: 100%; /* Largura total */
+    max-width: 400px; /* Largura máxima */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinhamento vertical */
+    padding: 20px;
+}
+
+.form-cadastro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-cadastro p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.form-cadastro label {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form-cadastro input {
+    height: 35px;
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(59, 104, 0);
+    background-color: rgb(204, 255, 159);
+}
+
+.form-cadastro button {
+    width: 100%;
+    max-width: 380px;
+    height: 60px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(51, 160, 0);
+    cursor: pointer;
+}
+
+.form-cadastro button:hover {
+    background-color: rgb(83, 156, 0);
+}
+
+.form-cadastro span {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.a1 {
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(2, 75, 0);
+}
+
+.account-text {
+    font-size: 15px;
+}
