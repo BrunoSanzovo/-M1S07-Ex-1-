@@ -1,3 +1,18 @@
+.sidebar {
+    background-color: #FF5733; /* Cor para a Sidebar */
+    width: 200px;
+}
+
+.header {
+    background-color: #7D3C98; /* Cor para o Header */
+    flex: 1;
+}
+
+.content {
+    background-color: #3498DB; /* Cor para o Content */
+    flex: 3;
+}
+
 .form-cadastro input::placeholder {
     color: #2c6300;
 }
@@ -74,7 +89,6 @@
 
 .form-cadastro button:hover{
     background-color: rgb(83, 156, 0);
-    
 }
 
 .form-cadastro span{
@@ -94,6 +108,7 @@
 h2{
     color: rgb(2, 75, 0);
 }
+
 .account-text {
     font-size: 15px; 
 }
